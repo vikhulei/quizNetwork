@@ -2,7 +2,7 @@ const Questions = {
   firstTen: [
     { q: "I", a: "Ich", tag: 0 },
     { q: "School", a: "Schule", tag: 0 },
-    { q: "Гра", a: "Game", tag: 0 },
+    { q: "How are you?", a: "Wie geht's?", tag: 0 },
     { q: "Автомобіль", a: "Car", tag: 0 },
     { q: "Телефон", a: "Phone", tag: 0 },
     { q: "Мені подобається", a: "I like", tag: 0 },
