@@ -4,8 +4,8 @@ import Questions from "./Questions";
 
 const App = () => {
   const [question, setQuestion] = useState({
-    q: "Готова?",
-    a: "Ти повинна бути!",
+    q: "Start",
+    a: "Go ahead",
     tag: 0
   });
   const [category, setCategory] = useState("firstTen");
@@ -17,7 +17,7 @@ const App = () => {
   const clr = () => {
     let newSamp = Questions[category];
     newSamp.map((val) => (val.tag = 0));
-    setQuestion({ q: "Готова?", a: "Ти повинна бути!", tag: 0 });
+    setQuestion({ q: "Start", a: "Go ahead", tag: 0 });
     setFlip(false);
   };
 
@@ -49,11 +49,11 @@ const App = () => {
     <div>
       <form className="category">
         <select name="category" id="category" onChange={categ}>
-          <option value="firstTen">Перший десяток</option>
-          <option value="secondTen">Другий десяток</option>
-          <option value="thirdTen">Третій десяток</option>
-          <option value="fourthTen">Четвертий десяток</option>
-          <option value="fifthTen">П'ятий десяток</option>
+          <option value="firstTen">First 20</option>
+          <option value="secondTen">Second 20</option>
+          <option value="thirdTen">Third 20</option>
+          <option value="fourthTen">Fourth 20</option>
+          <option value="fifthTen">Fifth 20</option>
         </select>
         <div className="repeat">
           <label htmlFor="repeat">R</label>
