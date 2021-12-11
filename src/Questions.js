@@ -3,13 +3,13 @@ const Questions = {
     { q: "I", a: "Ich", tag: 0 },
     { q: "School", a: "Schule", tag: 0 },
     { q: "How are you?", a: "Wie geht's?", tag: 0 },
-    { q: "Автомобіль", a: "Car", tag: 0 },
-    { q: "Телефон", a: "Phone", tag: 0 },
-    { q: "Мені подобається", a: "I like", tag: 0 },
-    { q: "Круто", a: "Cool", tag: 0 },
-    { q: "Гратися", a: "Play", tag: 0 },
-    { q: "Домашнє завдання", a: "Homework", tag: 0 },
-    { q: "Батьки", a: "Parents", tag: 0 }
+    { q: "I am sorry", a: "Es tut mir leid", tag: 0 },
+    { q: "Excuse me", a: "Entschuldigung", tag: 0 },
+    { q: "See you later", a: "Bis später", tag: 0 },
+    { q: "Bye", a: "Tschüss", tag: 0 },
+    { q: "Cheers", a: "Prost", tag: 0 },
+    { q: "I am all right", a: "Es geht", tag: 0 },
+    { q: "Airport", a: "Flughafen", tag: 0 }
   ],
 
   secondTen: [

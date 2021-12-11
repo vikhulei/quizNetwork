@@ -5,7 +5,7 @@ import Questions from "./Questions";
 const App = () => {
   const [question, setQuestion] = useState({
     q: "Start",
-    a: "Go ahead",
+    a: "Der Start",
     tag: 0
   });
   const [category, setCategory] = useState("firstTen");
@@ -17,7 +17,7 @@ const App = () => {
   const clr = () => {
     let newSamp = Questions[category];
     newSamp.map((val) => (val.tag = 0));
-    setQuestion({ q: "Start", a: "Go ahead", tag: 0 });
+    setQuestion({ q: "Start", a: "Der Start", tag: 0 });
     setFlip(false);
   };
 
@@ -31,7 +31,7 @@ const App = () => {
     let newSamp = Questions[category];
     newSamp = newSamp.filter((val) => val.tag === 0);
     if (newSamp.length === 0) {
-      setQuestion({ q: "Кінець", a: "Так-так, це кінець!", tag: 0 });
+      setQuestion({ q: "End", a: "Ende", tag: 0 });
     } else {
       if (repeat === true) {
         prevQ.tag = 0;
