@@ -8,7 +8,7 @@ const App = () => {
     a: "Der Start",
     tag: 0
   });
-  const [category, setCategory] = useState("firstTen");
+  const [category, setCategory] = useState("js_tasks");
   const [flip, setFlip] = useState(false);
   const [repeat, setRepeat] = useState(false);
   const [prevQ, setPrevQ] = useState({});
@@ -17,7 +17,7 @@ const App = () => {
   const clr = () => {
     let newSamp = Questions[category];
     newSamp.map((val) => (val.tag = 0));
-    setQuestion({ q: "Start", a: "Der Start", tag: 0 });
+    setQuestion({ q: "Start", a: "Yes it is", tag: 0 });
     setFlip(false);
   };
 
@@ -31,7 +31,7 @@ const App = () => {
     let newSamp = Questions[category];
     newSamp = newSamp.filter((val) => val.tag === 0);
     if (newSamp.length === 0) {
-      setQuestion({ q: "End", a: "Ende", tag: 0 });
+      setQuestion({ q: "End", a: "Finish", tag: 0 });
     } else {
       if (repeat === true) {
         prevQ.tag = 0;
@@ -49,11 +49,11 @@ const App = () => {
     <div>
       <form className="category">
         <select name="category" id="category" onChange={categ}>
-          <option value="firstTen">First 20</option>
-          <option value="secondTen">Second 20</option>
-          <option value="thirdTen">Third 20</option>
-          <option value="fourthTen">Fourth 20</option>
-          <option value="fifthTen">Fifth 20</option>
+          <option value="js_tasks">js_tasks</option>
+          <option value="js_theory">js_theory</option>
+          <option value="html">html</option>
+          <option value="css">css</option>
+          <option value="react">react</option>
         </select>
         <div className="repeat">
           <label htmlFor="repeat">R</label>
