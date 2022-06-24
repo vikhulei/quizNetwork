@@ -5,7 +5,7 @@ import Questions from "./Questions";
 const App = () => {
   const [question, setQuestion] = useState({
     q: "Start",
-    a: "Der Start",
+    a: "Press Next",
     tag: 0
   });
   const [category, setCategory] = useState("js_tasks");
@@ -17,7 +17,7 @@ const App = () => {
   const clr = () => {
     let newSamp = Questions[category];
     newSamp.map((val) => (val.tag = 0));
-    setQuestion({ q: "Start", a: "Yes it is", tag: 0 });
+    setQuestion({ q: "Start", a: "Press Next", tag: 0 });
     setFlip(false);
   };
 
@@ -31,7 +31,7 @@ const App = () => {
     let newSamp = Questions[category];
     newSamp = newSamp.filter((val) => val.tag === 0);
     if (newSamp.length === 0) {
-      setQuestion({ q: "End", a: "Finish", tag: 0 });
+      setQuestion({ q: "End", a: "Press Clear", tag: 0 });
     } else {
       if (repeat === true) {
         prevQ.tag = 0;
@@ -49,11 +49,11 @@ const App = () => {
     <div>
       <form className="category">
         <select name="category" id="category" onChange={categ}>
-          <option value="js_tasks">js_tasks</option>
-          <option value="js_theory">js_theory</option>
-          <option value="html">html</option>
-          <option value="css">css</option>
-          <option value="react">react</option>
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="js_theory">JS_Theory</option>
+          <option value="js_tasks">JS_Tasks</option>
+          <option value="react">React</option>
         </select>
         <div className="repeat">
           <label htmlFor="repeat">R</label>
