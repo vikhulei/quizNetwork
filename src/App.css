@@ -71,7 +71,7 @@ body {
   justify-content: center;
   align-items: center;
   transform-style: preserve-3d;
-  transition: 150ms;
+  transition: 250ms;
 }
 
 .card.flip {
