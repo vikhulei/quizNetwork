@@ -6,7 +6,7 @@ body {
   text-align: center;
 }
 
-.category {
+.top_bar {
   width: 500px;
   max-width: 90vw;
   margin: 20px auto 0;
@@ -15,7 +15,7 @@ body {
   align-items: center;
 }
 
-.category select {
+.top_bar select {
   height: 60px;
   width: 65%;
   text-align: center;
@@ -43,7 +43,7 @@ body {
   font-size: 1.8rem;
 }
 
-.repeat input[type=checkbox] {
+.repeat input {
   transform: scale(1.7);
 }
 
@@ -70,11 +70,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 700ms;
   transform-style: preserve-3d;
-  transition: 250ms;
 }
 
 .card.flip {
+  transition: 700ms;
   transform: perspective(2000px) rotateY(180deg);
 }
 

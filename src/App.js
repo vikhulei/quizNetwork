@@ -47,7 +47,7 @@ const App = () => {
 
   return (
     <div>
-      <form className="category">
+      <div className="top_bar">
         <select name="category" id="category" onChange={categ}>
           <option value="html">HTML</option>
           <option value="css">CSS</option>
@@ -65,7 +65,7 @@ const App = () => {
             onChange={(e) => setRepeat(e.target.checked)}
           ></input>
         </div>
-      </form>
+      </div>
       <div className="main">
         <div className="card_wrapper">
           <Card flip={flip} onFlipChange={setFlip} question={question} />
