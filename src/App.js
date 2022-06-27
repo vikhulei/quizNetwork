@@ -13,34 +13,34 @@ const App = () => {
   const [repeat, setRepeat] = useState(false);
   const [prevQ, setPrevQ] = useState({});
   const [checked, setChecked] = useState(false);
+  
+  let newQuestions = Questions[category];
 
-  const clr = () => {
-    let newSamp = Questions[category];
-    newSamp.map((val) => (val.tag = 0));
+  const click_clear = () => {
+    newQuestions.map((val) => (val.tag = 0));
     setQuestion({ q: "Start", a: "Press Next", tag: 0 });
     setFlip(false);
   };
 
-  const categ = (e) => {
+  const click_category = (e) => {
     setCategory(e.target.value);
-    clr();
+    click_clear();
   };
 
   const next = () => {
     setChecked(false);
-    let newSamp = Questions[category];
-    newSamp = newSamp.filter((val) => val.tag === 0);
-    if (newSamp.length === 0) {
+    newQuestions = newQuestions.filter((val) => val.tag === 0);
+    if (newQuestions.length === 0) {
       setQuestion({ q: "End", a: "Press Clear", tag: 0 });
     } else {
       if (repeat === true) {
         prevQ.tag = 0;
       }
       setFlip(false);
-      let n = Math.floor(Math.random() * newSamp.length);
-      setQuestion(newSamp[n]);
-      newSamp[n].tag = 1;
-      setPrevQ(newSamp[n]);
+      let n = Math.floor(Math.random() * newQuestions.length);
+      setQuestion(newQuestions[n]);
+      newQuestions[n].tag = 1;
+      setPrevQ(newQuestions[n]);
     }
     setRepeat(false);
   };
@@ -48,7 +48,7 @@ const App = () => {
   return (
     <div>
       <div className="top_bar">
-        <select name="category" id="category" onChange={categ}>
+        <select name="category" id="category" onChange={click_category}>
           <option value="html">HTML</option>
           <option value="css">CSS</option>
           <option value="js_theory">JS_Theory</option>
@@ -56,7 +56,7 @@ const App = () => {
           <option value="react">React</option>
         </select>
         <div className="repeat">
-          <label htmlFor="repeat">R</label>
+          <label>R</label>
           <input
             type="checkbox"
             name="repeat"
@@ -67,15 +67,13 @@ const App = () => {
         </div>
       </div>
       <div className="main">
-        <div className="card_wrapper">
           <Card flip={flip} onFlipChange={setFlip} question={question} />
-        </div>
         <button className="next" onClick={next}>
           <p>Next</p>
         </button>
       </div>
       <div className="clear_wrapper">
-        <button className="clr" onClick={clr}>
+        <button className="clear_button" onClick={click_clear}>
           Clear
         </button>
       </div>
