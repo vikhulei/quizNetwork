@@ -46,7 +46,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className="wrapper">
       <div className="top_bar">
         <select name="category" id="category" onChange={click_category}>
           <option value="html">HTML</option>
