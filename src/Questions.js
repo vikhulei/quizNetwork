@@ -75,7 +75,7 @@ const Questions = {
   ],
   react: [
     { q: 'Function component', a: 'const App = () => { return ( <div>  </div> ) }', tag: 0 },
-    { q: 'What should be installed for Router?', a: '1) react -router 2) react -router -dom', tag: 0 },
+    { q: 'What should be installed for ROUTER?', a: '1) react -router 2) react -router -dom', tag: 0 },
     { q: 'Router imports', a: '{BrowserRouter, Switch, Route, Link, Redirect}', tag: 0 },
     { q: 'Syntax for Router Link', a: '<Link to= "/Home"> Home </Link> ', tag: 0 },
     { q: 'Syntax for Route', a: '<Switch> <Route path="/home" component ={Home} /> </Switch> ', tag: 0 },
