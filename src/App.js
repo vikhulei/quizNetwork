@@ -54,6 +54,7 @@ const App = () => {
           <option value="js_theory">JS_Theory</option>
           <option value="js_tasks">JS_Tasks</option>
           <option value="react">React</option>
+          <option value="html_old">html_old</option>
         </select>
         <div className="repeat">
           <label>R</label>
