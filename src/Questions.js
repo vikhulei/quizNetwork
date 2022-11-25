@@ -32,7 +32,30 @@ const Questions = {
 
 
   html: [
-	{q: 'test question', a: 'test answer', tag: 0}
+	{q: 'HTML abbreviation', a: 'Hyper Text Markup Language', tag: 0},
+
+	{q: 'HTML is used for:', a: 'HTML is used create and display pages on the WEB', tag: 0},
+
+	{q: 'Tags, elements, attributes', a: 'Tags: <p><p/>,        Element: <p>hi</p>       Attr.: <img src={dog} /> ', tag: 0},
+
+	{q: 'Block, inline and inline-block', a: 'B: next line,     I: same line,    I-B: height, width, margins, padding', tag: 0},
+
+	{q: 'HTML abbreviation', a: 'Hyper Text Markup Language', tag: 0},
+
+	{q: 'HTML abbreviation', a: 'Hyper Text Markup Language', tag: 0},
+
+	{q: 'HTML abbreviation', a: 'Hyper Text Markup Language', tag: 0},
+
+	{q: 'HTML abbreviation', a: 'Hyper Text Markup Language', tag: 0},
+
+	{q: 'HTML abbreviation', a: 'Hyper Text Markup Language', tag: 0},
+
+	{q: 'HTML abbreviation', a: 'Hyper Text Markup Language', tag: 0},
+
+	{q: 'HTML abbreviation', a: 'Hyper Text Markup Language', tag: 0},
+
+
+
 ],
 
 
