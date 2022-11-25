@@ -29,26 +29,52 @@ const Questions = {
     { q: 'Transform translate', a: '', tag: 0 },
     { q: '', a: '', tag: 0 },
   ],
+
+
   html: [
+	{q: 'test question', a: 'test answer', tag: 0}
+],
+
+
+  html_old: [
     { q: 'Defines an area inside an image map', a: '<map name="workmap"> <area shape="rect" coords="34,44,270, 350" alt="Computer" href="computer.htm">   <area shape="circle" coords="337,300,300" alt="Cup of coffee" href="coffee.htm"> </map>', tag: 0 },
+
     { q: 'Defines embedded sound content', a: '<audio controls>   <source src="horse.mp3" type="audio/mpeg"> Your browser does not support the audio tag. </audio>', tag: 0 },
+
     { q: 'Specifies the base URL or target for all relative URLs in a document', a: '<head>   <base href="https:// www. w3schools.com/" target="_blank"> </head>', tag: 0 },
+
     { q: 'Used to draw graphics, on the fly, via scripting (usually JavaScript)', a: '<canvas id="myCanvas"> Your browser does not support the canvas tag. </canvas>', tag: 0 },
+
     { q: 'Table: caption, header, body, footer, rows and columns', a: '<table></table><caption></caption> <thead></thead>   <tbody></tbody>  <tfooter></tfooter>   <tr>   <th></th>   </tr>   <tr>   <td></td>   </tr>', tag: 0 },
+
     { q: 'Specifies a group of one or more columns in a table for formatting', a: '<table>   <colgroup>    <col span="2" style="background-color:red">    <col style="background-color:yellow">  </colgroup>', tag: 0 },
+
     { q: 'List of pre-defined options for input control, although user may enter his text', a: '<label for= "browser"> Choose your browser from the list: </label>   <input list= "browsers" name="browser" id="browser"> <datalist id= "browsers"> <option value="Edge"> <option value="Firefox"> </datalist>', tag: 0 },
+
     { q: 'Specify details that the user can open and close on demand', a: '<details>  <summary>Center </summary>  <p>Lorum</p>   </details>', tag: 0 },
+
     { q: 'Write a code for a description list', a: '<dl>    <dt>Coffee</dt>     <dd>morning dring</dd>     <dt>Milk</dt>    <dd>evening drink</dd>     </dl>', tag: 0 },
+
     { q: 'List of pre-defined options for input control and user must choose one of the predifined options', a: '<label for="opt"> </label> <select name="opt">        <option>option1 </option> <option>option2 </option> <select>', tag: 0 },
+
     { q: 'List 15 types of input in the form', a: '<form autocomplete= "off"> <label for="1"> One</label> <input type="text", "button", "checkbox", "date", "email", "file", "number", "password", "radio", "range", "reset", "submit", "search", "tel", "url"> </form>', tag: 0 },
+
     { q: '14 attributes for input field in the form', a: 'required, value, readonly, disabled, size, maxlength, min and max, multiple (file and email), placeholder, step, autofocus, list, autocomplete', tag: 0 },
+
     { q: 'How to place web-page inside a web-page and target it with a link', a: '<iframe src="" title="title" width="300" height="400" name="aaa"> </iframe>      <a href="https:/.." target="aaa">Click </a>', tag: 0 },
+
     { q: '7 most used semantic elements', a: 'article, aside, footer, header, main, nav, section', tag: 0 },
+
     { q: 'Draw svg circle and rectangle. What is the format?', a: '<svg width="100" height="100"> <circle cx="50" cy="50" r="40" stroke="green" stroke-width="3" fill="yellow">   </svg>     <svg width="500" height="200">   <rect width="500" height="200" …>    </svg>  XML', tag: 0 },
+
     { q: 'HTML syntax for canvas. What is the format?', a: '<canvas id="myCanvas" width="500"   height="200"></canvas>   jpg, bmp, png', tag: 0 },
+
     { q: 'Syntax for video with controls', a: '<video width="500" height="300" controls>   <source src="movie.mp4" type="video/mp4">      </video>', tag: 0 },
+
     { q: 'Syntax for audio with controls', a: '<audio controls>        <source src="sound.mp3" type="audio/mpeg"> Your browser does not support    </audio>', tag: 0 },
   ],
+
+
   css: [
     { q: 'What does background-attachment do - two parameters?', a: 'fixed and scroll', tag: 0 },
     { q: 'Explain box model', a: 'content-box: size will be applied to the content, border-box: size will be applied to the border', tag: 0 },
