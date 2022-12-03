@@ -18,7 +18,7 @@ const Questions = {
     { q: 'Comments', a: 'one line - //   multiple lines - /*  */', tag: 0 },
     { q: 'Varibles', a: 'var - function scoped, can be re-declared, initialized and undefined   let - block scoped, can be updated, not re-declared, not initialized   const -  block scoped, cannot be updated, not initialized', tag: 0 },
     { q: 'Complex operators', a: '**, %,  ++, --, +=, -=, *=, /=, %=, **=', tag: 0 },
-    { q: 'Define simple object with properies and methods', a: 'person = {  firstName: "John",  lastName: "Doe",  id: 45678,   fullName: function() {    return this.firstName + " " + this.last.Name; }  }', tag: 0 },
+    { q: 'Define simple class with properies and methods', a: 'class Test', tag: 0 },
     { q: 'Explain this keyword', a: 'Refers to the object it belongs to. If called with argument from another object, will refer to that other object.  In arrow function will always refer to the object which owns the function.', tag: 0 },
     { q: 'Arrow function. Example of 1 line arrow function', a: 'a = () => {  return "Hello"; }  a = () => "Hello";', tag: 0 },
     { q: 'Example of if statement', a: 'if (condition1) { code1  } else if (condition2) { code2 } else { code3 }', tag: 0 },
