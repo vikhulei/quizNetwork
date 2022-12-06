@@ -8,7 +8,7 @@ const App = () => {
     a: "Press Next",
     tag: 0
   });
-  const [category, setCategory] = useState("html");
+  const [category, setCategory] = useState("js_basics");
   const [flip, setFlip] = useState(false);
   const [repeat, setRepeat] = useState(false);
   const [prevQ, setPrevQ] = useState({});
@@ -49,12 +49,8 @@ const App = () => {
     <div className="wrapper">
       <div className="top_bar">
         <select name="category" id="category" onChange={click_category}>
-          <option value="html">HTML</option>
-          <option value="css">CSS</option>
-          <option value="js_theory">JS_Theory</option>
-          <option value="js_tasks">JS_Tasks</option>
-          <option value="react">React</option>
-          <option value="html_old">html_old</option>
+          <option value="js_basics">JS_Basics</option>
+          <option value="js_exam">JS_Exam</option>
         </select>
         <div className="repeat">
           <label>R</label>
