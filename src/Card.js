@@ -9,7 +9,7 @@ export default function Card({ question, flip, onFlipChange }) {
       }}
     >
       <div className="front">{question.q}</div>
-      <div className="back">{question.a.split("<br>").map(str => <p>{str}</p>)}</div>
+      <div className="back">{question.a.split("<br>").map((str) => (<p>{str}</p>))}</div>
     </div>
   );
 }
