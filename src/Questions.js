@@ -2,7 +2,7 @@ const Questions = {
   js_basics: [
     { q: 'Comments in javascript', a: 'one line - //   multiple lines - /*  */', tag: 0 },
     { q: 'Advantages of JavaScript', a: '1) Large community; 2) Multiple frameworks and libraries; 3) No expensive tools; 4) Support from Google, Facebook, Mozila and others ', tag: 0 },
-    { q: 'Disadvantages of JavaScript', a: '1) Browser limits - cannot access local files;\n2) Code not compiled everyone can see it', tag: 0 },
+    { q: 'Disadvantages of JavaScript', a: '1) Browser limits - cannot access local files; 2) Code not compiled everyone can see it', tag: 0 },
     { q: '', a: '', tag: 0 },
     { q: '', a: '', tag: 0 },
     { q: '', a: '', tag: 0 },
