@@ -1,6 +1,11 @@
 const Questions = {
   js_basics: [
     { q: 'Comments in javascript', a: 'one line - //   multiple lines - /*  */', tag: 0 },
+    { q: 'Advantages of JavaScript', a: '1) Large community; 2) Multiple frameworks and libraries; 3) No expensive tools; 4) Support from Google, Facebook, Mozila and others ', tag: 0 },
+    { q: 'Disadvantages of JavaScript', a: '1) Browser limits - cannot access local files; 2) Code not compiled everyone can see it', tag: 0 },
+    { q: '', a: '', tag: 0 },
+    { q: '', a: '', tag: 0 },
+    { q: '', a: '', tag: 0 },
     { q: '', a: '', tag: 0 },
     { q: 'What is a DOM?', a: 'Document Object Model, it is a structural representation of the document', tag: 0 },
     { q: 'What is ECMA?', a: 'European Association for standartizing information. ECMA Script is standartized JavaScript', tag: 0 },
