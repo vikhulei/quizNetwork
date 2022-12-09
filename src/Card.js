@@ -9,7 +9,7 @@ export default function Card({ question, flip, onFlipChange }) {
       }}
     >
       <div className="front">{question.q}</div>
-      <div className="back"><p>{question.a}</p></div>
+      <div className="back"><p style={{"color": "red"}}>{question.a}</p></div>
     </div>
   );
 }
