@@ -11,14 +11,20 @@ const Questions = {
     { q: 'What is ECMA?', a: 'European Association for standartizing information. ECMA Script is standartized JavaScript', tag: 0 },
     { q: 'Where JavaScrip has borrowed its syntax from?', a: 'Java, C, C++', tag: 0 },
     { q: 'What does it mean just-in-time compilation', a: 'Compilation during execution of a program', tag: 0 },
+    { q: 'Explain why JS is an interpreted language', a: 'An interpreter reads each line and runs it. JustInTime compilation: compilation is done during the execution. In contrast C++ etc. first compile the entire program before running it', tag: 0 },
     { q: 'What is a varible?', a: 'Variable is an address/name to a storage location in memory', tag: 0 },
     { q: 'Var, let and const', a: "VAR: function scoped, can be re-declared in the same scope ------- LET: block & function scoped, cannot be re-declared in the same scope ----------------- CONST: block scoped, cannot be updated, not initialized", tag: 0 },
     { q: 'Complex operators', a: '**, %,  ++, --, +=, -=, *=, /=, %=, **=', tag: 0 },
     { q: 'Explain this keyword', a: 'Refers to the object it belongs to. If called with argument from another object, will refer to that other object.  In arrow function will always refer to the object which owns the function.', tag: 0 },
   ],
-  js_exam: [
-    { q: 'Explain why JS is an interpreted language', a: 'An interpreter reads each line and runs it. JustInTime compilation: compilation is done during the execution. In contrast C++ etc. first compile the entire program before running it', tag: 0 },
+  js_general: [
+    { q: 'What are popular online development environments?', a: 'JSFiddle, CodePen, Codesandbox, JSBin, Plunker', tag: 0 },
+    { q: 'What are three main elements of local development environment?', a: 'Code editor, Interpreter and Debugger', tag: 0 },
+    { q: 'What other tools are needed for development?', a: '1) package manager (npm, yarn)<br>2) module bundlers (Grunt, Webpack)<br>3) testing frameworks(Mocha, Jasmine, Jest)<br>4) security analyzers', tag: 0 },
     { q: '', a: '', tag: 0 },
+    { q: '', a: '', tag: 0 },
+    { q: '', a: '', tag: 0 },
+    
   ],
   js_other: [
     { q: 'Transform translate', a: '', tag: 0 },
