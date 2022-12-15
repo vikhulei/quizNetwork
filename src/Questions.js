@@ -4,6 +4,7 @@ const Questions = {
     { q: 'Advantages of JavaScript', a: "1) Large community;<br>2) Multiple frameworks and libraries;<br>3) No expensive tools;<br>4) Support from Google, Facebook, Mozila and others", tag: 0 },
     { q: 'Disadvantages of JavaScript', a: `1) Browser limits - cannot access local files;<br>2) Code not compiled everyone can see it`, tag: 0 },
     { q: 'Variables cannot start with', a: 'A number', tag: 0 },
+    { q: 'What is program block?', a: 'independent set of instructions, separated with curly braces.', tag: 0 },
     { q: '', a: '', tag: 0 },
     { q: '', a: '', tag: 0 },
     { q: '', a: '', tag: 0 },
@@ -17,9 +18,11 @@ const Questions = {
     { q: 'Complex operators', a: '**, %,  ++, --, +=, -=, *=, /=, %=, **=', tag: 0 },
     { q: 'Explain this keyword', a: 'Refers to the object it belongs to. If called with argument from another object, will refer to that other object.  In arrow function will always refer to the object which owns the function.', tag: 0 },
   ],
-    js_scope: [
-    { q: 'What is program block?', a: 'independent set of instructions, separated with curly braces.', tag: 0 },
-      ]
+    js_data_types: [
+    { q: 'List seven data types', a: 'String<br>Number<br>Boolean<br>BigInt<br>undefined<br>null<br>Symbol', tag: 0 },
+    { q: 'Why primitive types have methods?', a: 'Because of autoboxing - converting primitive to object on the fly, then destroying it', tag: 0 },
+      
+      ],
   js_general: [
     { q: 'What are popular online development environments?', a: 'JSFiddle, CodePen, Codesandbox, JSBin, Plunker', tag: 0 },
     { q: 'What are three main elements of local development environment?', a: '1) Code editor (VS Code, Sublime Trxt, Notepad++)<br>2) Interpreter (Chrome, Firefox)<br>3) Debugger (Chrome develper tools)', tag: 0 },
