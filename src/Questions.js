@@ -21,7 +21,7 @@ const Questions = {
     js_data_types: [
     { q: 'List seven data types', a: 'String<br>Number<br>Boolean<br>BigInt<br>undefined<br>null<br>Symbol', tag: 0 },
     { q: 'Why primitive types have methods?', a: 'Because of autoboxing - converting primitive to object on the fly, then destroying it', tag: 0 },
-      
+    { q: 'String methods', a: 'length<br>slice<br>replace - all and case insensitive<br>toUpperCase<br>concat<br>charAt<br>', tag: 0 },
       ],
   js_general: [
     { q: 'What are popular online development environments?', a: 'JSFiddle, CodePen, Codesandbox, JSBin, Plunker', tag: 0 },
