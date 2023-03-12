@@ -49,7 +49,8 @@ const App = () => {
     <div className="wrapper">
       <div className="top_bar">
         <select name="category" id="category" onChange={click_category}>
-          <option value="js_basics">JS_Basics</option>
+          <option value="js_interview">JS_Interview</option>
+          <option value="js_basics_var">JS_Basics</option>
           <option value="js_general">JS_General</option>
           <option value="js_other">JS_Other</option>
         </select>
