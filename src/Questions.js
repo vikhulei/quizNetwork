@@ -1,4 +1,7 @@
 const Questions = {
+  js_interview: [
+    { q: 'Hoisting', a: '1. Variables not hoisted<br>2. Functions are hoisted', tag: 0 },
+    ],
   js_basics_var: [
     { q: 'Comments in javascript', a: 'one line - //   multiple lines - /*  */', tag: 0 },
     { q: 'Advantages of JavaScript', a: "1) Large community;<br>2) Multiple frameworks and libraries;<br>3) No expensive tools;<br>4) Support from Google, Facebook, Mozila and others", tag: 0 },
