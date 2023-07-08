@@ -4,7 +4,7 @@ const Questions = {
     ],
   js_basics_var: [
     { q: 'Comments in javascript', a: 'one line - //   multiple lines - /*  */', tag: 0 },
-    { q: `<b>Advantages</b> of JavaScript`, a: "1) Large community;<br>2) Multiple frameworks and libraries;<br>3) No expensive tools;<br>4) Support from Google, Facebook, Mozila and others", tag: 0 },
+    { q: `Advantages of JavaScript`, a: "1) Large community;<br>2) Multiple frameworks and libraries;<br>3) No expensive tools;<br>4) Support from Google, Facebook, Mozila and others", tag: 0 },
     { q: 'Disadvantages of JavaScript', a: `1) Browser limits - cannot access local files;<br>2) Code not compiled everyone can see it`, tag: 0 },
     { q: 'Variables cannot start with', a: 'A number', tag: 0 },
     { q: 'What is program block?', a: 'independent set of instructions, separated with curly braces.', tag: 0 },
