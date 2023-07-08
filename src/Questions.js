@@ -30,7 +30,7 @@ const Questions = {
     { q: 'What are popular online development environments?', a: 'JSFiddle, CodePen, Codesandbox, JSBin, Plunker', tag: 0 },
     { q: 'What are three main elements of local development environment?', a: '1) Code editor (VS Code, Sublime Trxt, Notepad++)<br>2) Interpreter (Chrome, Firefox)<br>3) Debugger (Chrome develper tools)', tag: 0 },
     { q: 'What other tools are needed for development?', a: '1) package manager (npm, yarn)<br>2) module bundlers (Grunt, Webpack)<br>3) testing frameworks(Mocha, Jasmine, Jest)<br>4) security analyzers', tag: 0 },
-    { q: '', a: '', tag: 0 },
+    { q: '111111', a: '22222', tag: 0 },
     { q: '', a: '', tag: 0 },
     { q: '', a: '', tag: 0 },
     
