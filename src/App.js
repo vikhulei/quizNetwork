@@ -4,7 +4,7 @@ import Questions from "./Questions";
 
 const App = () => {
   const [question, setQuestion] = useState({
-    q: "Start <br> new line",
+    q: "Start /n new line",
     a: "Press Next",
     tag: 0
   });
