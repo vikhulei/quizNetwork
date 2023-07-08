@@ -5,7 +5,7 @@ import Questions from "./Questions";
 const App = () => {
   const [question, setQuestion] = useState({
     q: "Start",
-    a: "Press Next",
+    a: "Press <br> Next",
     tag: 0
   });
   const [category, setCategory] = useState("js_basics");
