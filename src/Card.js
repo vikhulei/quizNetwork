@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Card({ question, flip, onFlipChange, backCenter }) {
-  let tag = false
   return (
     <div
       className={`card ${flip ? "flip" : ""}`}
