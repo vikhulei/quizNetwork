@@ -4,7 +4,7 @@ import Questions from "./Questions";
 
 const App = () => {
   const [question, setQuestion] = useState({
-    q: "Start"+ <br> + "new line",
+    q: "Start",
     a: "Press Next",
     tag: 0
   });
@@ -13,6 +13,7 @@ const App = () => {
   const [repeat, setRepeat] = useState(false);
   const [prevQ, setPrevQ] = useState({});
   const [checked, setChecked] = useState(false);
+  const [backCenter, setBackCenter] = useState(true)
   
   let newQuestions = Questions[category];
 
@@ -20,6 +21,7 @@ const App = () => {
     newQuestions.map((val) => (val.tag = 0));
     setQuestion({ q: "Start", a: "Press Next", tag: 0 });
     setFlip(false);
+    setBackCenter(true)
   };
 
   const click_category = (e) => {
@@ -28,10 +30,12 @@ const App = () => {
   };
 
   const next = () => {
+    setBackCenter(false)
     setChecked(false);
     newQuestions = newQuestions.filter((val) => val.tag === 0);
     if (newQuestions.length === 0) {
       setQuestion({ q: "End", a: "Press Clear", tag: 0 });
+      setBackCenter(true)
     } else {
       if (repeat === true) {
         prevQ.tag = 0;
@@ -50,7 +54,7 @@ const App = () => {
       <div className="top_bar">
         <select name="category" id="category" onChange={click_category}>
           <option value="js_interview">JS_Interview</option>
-          <option value="js_basics_var">JS_Basics</option>
+          <option value="js_basics">JS_Basics</option>
           <option value="js_general">JS_General</option>
           <option value="js_other">JS_Other</option>
         </select>
@@ -66,7 +70,7 @@ const App = () => {
         </div>
       </div>
       <div className="main">
-          <Card flip={flip} onFlipChange={setFlip} question={question} />
+          <Card flip={flip} onFlipChange={setFlip} question={question} backCenter={backCenter} setBackCenter={setBackCenter}/>
         <button className="next" onClick={next}>
           <p>Next</p>
         </button>

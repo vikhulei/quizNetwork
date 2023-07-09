@@ -1,6 +1,7 @@
 import React from "react";
 
-export default function Card({ question, flip, onFlipChange }) {
+export default function Card({ question, flip, onFlipChange, backCenter }) {
+  let tag = false
   return (
     <div
       className={`card ${flip ? "flip" : ""}`}
@@ -9,7 +10,7 @@ export default function Card({ question, flip, onFlipChange }) {
       }}
     >
       <div className="front">{question.q}</div>
-      <div className="back">{question.a.split("<br>").map((str) => (<p>{str}</p>))}</div>
+      <div className="back" style={ backCenter ? {textAlign: "center"} : {} } >{question.a.split("<br>").map((str) => (<p>{str}</p>))}</div>
     </div>
   );
 }
