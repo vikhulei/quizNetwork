@@ -8,7 +8,7 @@ const App = () => {
     a: "Press Next",
     tag: 0
   });
-  const [category, setCategory] = useState("network");
+  const [category, setCategory] = useState("module1_3");
   const [flip, setFlip] = useState(false);
   const [repeat, setRepeat] = useState(false);
   const [prevQ, setPrevQ] = useState({});
@@ -53,7 +53,8 @@ const App = () => {
     <div className="wrapper">
       <div className="top_bar">
         <select name="category" id="category" onChange={click_category}>
-          <option value="network">Network</option>
+          <option value="module1_3">Module 1 - 3</option>
+          <option value="module4_6">Module 4 - 6</option>
         </select>
         <div className="repeat">
           <label>R</label>
