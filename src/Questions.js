@@ -16,7 +16,6 @@ const Questions = {
       { q: 'Describe combined homenetworking device', a: '1. Build-in modem<br>2. Router<br>3. Wireless transmitter<br>4. Lan switch', tag: 0 },
       { q: 'Three types of wired connections, explain each', a: '1) Category 5e - 4 pairs of wires<br>2) Coaxial - inner wire surrounded by conducting shield<br>3) Fiber-Optic - glass or plastic wire diameter of hair', tag: 0 },
       { q: 'Frequencies of wifi, bluetooth and cordless phone', a: '1) wifi - 2.4 and 5GHz<br>2) blutooth - 2.4GHz<br>3) phone - 900MHz', tag: 0 },
-      { q: 'What is SSID?', a: 'Service Set Identifier. Used to identify pecific wireless network', tag: 0 },
       { q: 'What wireless router configuration would stop outsiders from using your home network', a: 'Encription', tag: 0 },
       { q: 'OSI model', a: '1)Physical<br>2) Data Link<br>3) Network<br>4) Transport<br>5) Session<br>6) Presentation<br>7) Application', tag: 0 },
       { q: 'TCP/IP model', a: '1) Network Access<br>2) Internet<br> 3)Transport<br>4) Application', tag: 0 },
