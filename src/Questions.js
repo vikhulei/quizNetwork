@@ -22,7 +22,8 @@ const Questions = {
       { q: 'Three types of cables - name and explain', a: '1) Twisted pair - 4 pairs of copper wires<br>2) Coaxial cable - single copper wire in insulation and metal shielding<br> 3)Fiber-optic cable - glass or plastic wire', tag: 0 },
     ],
     module8_12: [
-      { q: '', a: '', tag: 0 },
+      { q: 'Private addresses', a: '1) 10.0.0.0/8<br>2) 172.16.0.0/12<br>3) 192.168.0.0/16', tag: 0 },
+      { q: 'Special addresses', a: '1) Loopback address - 127.0.0.1<br>2) Link-Local addresses - 169.254.0.1 to 169.254.255.254', tag: 0 },
       { q: '', a: '', tag: 0 },
     ],
 };
