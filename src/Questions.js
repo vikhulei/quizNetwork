@@ -20,7 +20,11 @@ const Questions = {
       { q: 'OSI model', a: '1)Physical<br>2) Data Link<br>3) Network<br>4) Transport<br>5) Session<br>6) Presentation<br>7) Application', tag: 0 },
       { q: 'TCP/IP model', a: '1) Network Access<br>2) Internet<br> 3)Transport<br>4) Application', tag: 0 },
       { q: 'Three types of cables - name and explain', a: '1) Twisted pair - 4 pairs of copper wires<br>2) Coaxial cable - single copper wire in insulation and metal shielding<br> 3)Fiber-optic cable - glass or plastic wire', tag: 0 },
-    ]
+    ],
+    module8_12: [
+      { q: '', a: '', tag: 0 },
+      { q: '', a: '', tag: 0 },
+    ],
 };
 
 export default Questions;
