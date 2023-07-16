@@ -27,6 +27,8 @@ const Questions = {
       { q: 'Who manages assignment of ip addresses?', a: 'IANA - Internet Assigned Numbers Authority', tag: 0 },
       { q: 'Which org is responsible for allocating IP addresses to ISPs?', a: 'RIR - Regional Internet Registries', tag: 0 },
       { q: 'What is the range for multicast?', a: '224.0.0.0 to 239.255.25.255', tag: 0 },
+      { q: 'Three migration techniques from IPv4 to IPv6', a: '1) Dual Stack<br>2) Tunneling<br>3) Translation', tag: 0 },
+      { q: 'Composition of IPv6', a: '8 hextets of hexidecimal digits (0 to f)', tag: 0 },
       { q: '', a: '', tag: 0 },
     ],
 };
