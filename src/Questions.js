@@ -24,6 +24,9 @@ const Questions = {
     module8_12: [
       { q: 'Private addresses', a: '1) 10.0.0.0/8<br>2) 172.16.0.0/12<br>3) 192.168.0.0/16', tag: 0 },
       { q: 'Special addresses', a: '1) Loopback address - 127.0.0.1<br>2) Link-Local addresses - 169.254.0.1 to 169.254.255.254', tag: 0 },
+      { q: 'Who manages assignment of ip addresses?', a: 'IANA - Internet Assigned Numbers Authority', tag: 0 },
+      { q: 'Which org is responsible for allocating IP addresses to ISPs?', a: 'RIR - Regional Internet Registries', tag: 0 },
+      { q: 'What is the range for multicast?', a: '224.0.0.0 to 239.255.25.255', tag: 0 },
       { q: '', a: '', tag: 0 },
     ],
 };
