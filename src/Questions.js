@@ -17,8 +17,8 @@ const Questions = {
       { q: 'Three types of wired connections, explain each', a: '1) Category 5e - 4 pairs of wires<br>2) Coaxial - inner wire surrounded by conducting shield<br>3) Fiber-Optic - glass or plastic wire diameter of hair', tag: 0 },
       { q: 'Frequencies of wifi, bluetooth and cordless phone', a: '1) wifi - 2.4 and 5GHz<br>2) blutooth - 2.4GHz<br>3) phone - 900MHz', tag: 0 },
       { q: 'What wireless router configuration would stop outsiders from using your home network', a: 'Encription', tag: 0 },
-      { q: 'OSI model', a: '1)Physical<br>2) Data Link<br>3) Network<br>4) Transport<br>5) Session<br>6) Presentation<br>7) Application', tag: 0 },
-      { q: 'TCP/IP model', a: '1) Network Access<br>2) Internet<br> 3)Transport<br>4) Application', tag: 0 },
+      { q: 'OSI model', a: '7) Application<br>6) Presentation<br>5) Session<br>4) Transport<br>3) Network <br>2) Data Link <br>1) Physical', tag: 0 },
+      { q: 'TCP/IP model', a: '4) Application<br>3)Transport<br>2) Internet<br> 1) Network Access', tag: 0 },
       { q: 'Three types of cables - name and explain', a: '1) Twisted pair - 4 pairs of copper wires<br>2) Coaxial cable - single copper wire in insulation and metal shielding<br> 3)Fiber-optic cable - glass or plastic wire', tag: 0 },
     ],
     module8_12: [
@@ -29,6 +29,11 @@ const Questions = {
       { q: 'What is the range for multicast?', a: '224.0.0.0 to 239.255.25.255', tag: 0 },
       { q: 'Three migration techniques from IPv4 to IPv6', a: '1) Dual Stack<br>2) Tunneling<br>3) Translation', tag: 0 },
       { q: 'Composition of IPv6', a: '8 hextets of hexidecimal digits (0 to f)', tag: 0 },
+      { q: 'Four steps in assigning ip address using DHCP', a: '1) Discover from client - multicast with 255.255.255.255 and FF-FF-FF-FF-FF-FF<br>2) Offer from server<br>3) Request from client<br>4) Acknowledgment from server', tag: 0 },
+      { q: '', a: '', tag: 0 },
+    ],
+    module13_17: [
+      { q: 'What is ARP?', a: 'Address Resolution Protocol', tag: 0 },
       { q: '', a: '', tag: 0 },
     ],
 };
