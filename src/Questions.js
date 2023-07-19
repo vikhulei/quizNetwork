@@ -33,7 +33,9 @@ const Questions = {
       { q: '', a: '', tag: 0 },
     ],
     module13_17: [
-      { q: 'What is ARP?', a: 'Address Resolution Protocol', tag: 0 },
+      { q: 'What is ARP and ND?', a: 'Address Resolution Protocol<br>Netowrk Discovery', tag: 0 },
+      { q: 'What is broadcast MAC address?', a: 'FF:FF:FF:FF:FF:FF', tag: 0 },
+      { q: 'Three steps of ARP process', a: '1) Host sends request with ip address to broadcast MAC address<br>2) Host with matching ip sends back its MAC address<br>3) Sending host receives and stores MAC address in ARP table', tag: 0 },
       { q: '', a: '', tag: 0 },
     ],
 };
