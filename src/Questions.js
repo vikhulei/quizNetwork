@@ -36,6 +36,8 @@ const Questions = {
       { q: 'What is ARP and ND?', a: 'Address Resolution Protocol<br>Netowrk Discovery', tag: 0 },
       { q: 'What is broadcast MAC address?', a: 'FF:FF:FF:FF:FF:FF', tag: 0 },
       { q: 'Three steps of ARP process', a: '1) Host sends request with ip address to broadcast MAC address<br>2) Host with matching ip sends back its MAC address<br>3) Sending host receives and stores MAC address in ARP table', tag: 0 },
+      { q: 'Which table does a router use to determine which interface to use to send packets to the destination network?', a: 'Routing table', tag: 0 },
+      { q: 'Which information is used by routers to forward a data packet toward its destination?', a: 'DEstination ip address', tag: 0 },
       { q: '', a: '', tag: 0 },
     ],
 };
