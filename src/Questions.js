@@ -38,6 +38,10 @@ const Questions = {
       { q: 'Three steps of ARP process', a: '1) Host sends request with ip address to broadcast MAC address<br>2) Host with matching ip sends back its MAC address<br>3) Sending host receives and stores MAC address in ARP table', tag: 0 },
       { q: 'Which table does a router use to determine which interface to use to send packets to the destination network?', a: 'Routing table', tag: 0 },
       { q: 'Which information is used by routers to forward a data packet toward its destination?', a: 'DEstination ip address', tag: 0 },
+      { q: 'What is NAT? What is it used for?', a: 'Network Address Translation<br>Its mapping one IP address (private) to another IP address (public)', tag: 0 },
+      { q: 'Wht does UDP stand for?', a: 'User Datagram Protocol', tag: 0 },
+      { q: 'Three types of ports', a: '1) Well-known ports: 1-1023<br>2) Registered ports: 1024-49151 <br>3) Private ports: 49152-65535', tag: 0 },
+      { q: 'Well-known ports', a: 'FTP - 20,21<br>Secure Shell(SSH) - 22<br>Simple Mail Transfer Protocol (SMTP) - 25<br>DNS - 53, DHCP - 67,68<br>HTTP/HTTPS - 80/443<br>Post Office Protocol v3 (POP3) - 110', tag: 0 },
       { q: '', a: '', tag: 0 },
     ],
 };
