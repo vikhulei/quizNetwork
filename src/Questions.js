@@ -43,6 +43,17 @@ const Questions = {
   ],
   networkingDevices: [
     { q: 'Four basic characteristics of network', a: 'Fault tolerance<br>Scalability<br>Quality of Service (QoS)<br>Security', tag: 0 },
+    { q: 'Three requirements for security', a: '1) Confidentiality<br>2) Inrtegrity<br>3) Availability', tag: 0 },
+    { q: 'Three layers of hierarchial network design', a: '1) Access LAyer<br>2) Distribution Layer<br>3) Core Layer', tag: 0 },
+    { q: 'What is DataCenter', a: 'Physical facility to house large amount of data', tag: 0 },
+    { q: 'Three types of cloud services', a: '1) SaaS - Software as Service<br>2) Paas - Platform as Service<br>3) Iaas - Infrastructure as Service', tag: 0 },
+    { q: 'Two types of virtualization', a: '1) Bare metal - using computers hardware<br>2) Hosted - on the top of operating system', tag: 0 },
+    { q: 'Two major issues with physical server', a: '1) Single point of failurte<br>2) Server sprawl', tag: 0 },
+    { q: 'What is hybrid cloud?', a: 'Combination of computing in diffefrent environments', tag: 0 },
+    { q: 'What does MAC stand for?', a: 'Media Access Control', tag: 0 },
+    { q: 'What does MAC consist of?', a: 'First 3 bites - manufacturer<br>Second 3 bites - unique identifier', tag: 0 },
+    { q: 'Minimum and maximum Ethernet frame size', a: '64b and 1518b', tag: 0 },
+    { q: 'What are Ethernet frame fields?', a: 'Start of Frame<br>Destination MAC<br>Source MAC<br>LEnth/Type<br>Data Field<br>Frame Check Sequence', tag: 0 },
     { q: '', a: '', tag: 0 },
   ],
 };
