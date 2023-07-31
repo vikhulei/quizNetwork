@@ -41,7 +41,7 @@ const Questions = {
     { q: 'What is URI, URL and URN?', a: 'Unified Resource Identifier - entire line<br>URL - name and protocol<br>URN - only the name', tag: 0 },
     { q: 'What is the difference between POP3 and IMAP4?', a: 'POP3 doesnt store messages on the server, it downloads them on clients computer', tag: 0 },
   ],
-  networkingDevices: [
+  networkingDevices1: [
     { q: 'Four basic characteristics of network', a: 'Fault tolerance<br>Scalability<br>Quality of Service (QoS)<br>Security', tag: 0 },
     { q: 'Three requirements for security', a: '1) Confidentiality<br>2) Inrtegrity<br>3) Availability', tag: 0 },
     { q: 'Three layers of hierarchial network design', a: '1) Access LAyer<br>2) Distribution Layer<br>3) Core Layer', tag: 0 },
@@ -54,7 +54,30 @@ const Questions = {
     { q: 'What does MAC consist of?', a: 'First 3 bites - manufacturer<br>Second 3 bites - unique identifier', tag: 0 },
     { q: 'Minimum and maximum Ethernet frame size', a: '64b and 1518b', tag: 0 },
     { q: 'What are Ethernet frame fields?', a: 'Start of Frame<br>Destination MAC<br>Source MAC<br>LEnth/Type<br>Data Field<br>Frame Check Sequence', tag: 0 },
-    { q: '', a: '', tag: 0 },
+    { q: 'What does the preamble contain?', a: '10101011', tag: 0 },
+    { q: 'Range for multicast addresses', a: '224.0.0.0 to 239.255.255.255<br>IPv6 begins with ff00::/8', tag: 0 },
+    { q: 'Destination MAC address of multicast', a: 'IPv4 - 01-00-5E<br>IPv6 - 33-33', tag: 0 },
+    { q: 'Ethernet two sublayers', a: '1) LLC Sublayer - between Layer 3 and Layer 2<br> MAC - between LAyer 1 and LAyer 2', tag: 0 },
+    { q: 'What is the standart for LLC and MAC?', a: 'LLC - IEEE 802.2<br>MAC - IEEE 802.3, 802.11', tag: 0 },
+    { q: 'What is encapsulated into the data field of an Ethernet frame?', a: 'the Layer 3 PDU', tag: 0 },
+    { q: 'Length of Ethernet frame', a: '46 to 1500 bits', tag: 0 },
+    { q: 'What is PDU?', a: 'Protocol Data Unit', tag: 0 },
+    { q: 'Network layer four basic operations ', a: '1) Addressing end device<br>2) Encapsulation<br>3) Routing<br>4) De-encapsulation', tag: 0 },
+    { q: 'Name of the packets on different Layers', a: 'Layer 4 - Segment<br>Layer 3 - Packet<br>Layer 2 - Frame', tag: 0 },
+    { q: 'What is one major characteristic of the media that the network layer considers?', a: 'Maximum transmission unit (MTU)<br>The data link layer passes the MTU value up to the network layer', tag: 0 },
+    { q: '1) Unicast IPv6 address<br>Multicast IPv6 address', a: '1) 2001:6f8<br>2) ff02', tag: 0 },
+    { q: 'Link-local IPv6 address', a: 'fe80, ff:fe in the middle', tag: 0 },
+    { q: 'How many octets and header fields in IPv6?', a: '40 octets and 8 hea', tag: 0 },
+    { q: 'When would a switch record multiple entries for a single switch port in its MAC address table', a: 'When another switch is connected to the switch port', tag: 0 },
+    { q: 'What are IPv6 header fields?', a: 'Version (0110), Trafic Class (priority), Flow Label (same treatment by router), Payload Length, Next Header (transport protocol), Hop Limit, Source IPv6, Dest IPv6', tag: 0 },
+    { q: 'What are IPv4 header fields?', a: 'Version (0100), DS(priority), TTL, Protocol (transport), Header Checksum, Source IPv4, Dest IPv4', tag: 0 },
+    { q:'Some of the DNS records', a: 'A - IPv4 record, NS - authoritative name server, AAAA - IPv6 record, MX - mail exchange records', tag: 0},
+    { q:'DNS hierarchy', a: 'Root server -> top-level domain (TLD) -> second-level domain (authoritative)', tag: 0},
+    { q:'How to ping for IPv4 address?', a: 'ping -4', tag: 0}
+  ],
+  networkingDevices2: [
+    { q:'', a: '', tag: 0},
+    { q:'', a: '', tag: 0},
   ],
 };
 

@@ -54,7 +54,8 @@ const App = () => {
       <div className="top_bar">
         <select name="category" id="category" onChange={click_category}>
           <option value="basics">Basics</option>
-          <option value="networkingDevices">Networking Devices</option>
+          <option value="networkingDevices1">Networking Devices1</option>
+          <option value="networkingDevices2">Networking Devices2</option>
         </select>
         <div className="repeat">
           <label>R</label>
