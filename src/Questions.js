@@ -76,7 +76,17 @@ const Questions = {
     { q:'How to ping for IPv4 address?', a: 'ping -4', tag: 0}
   ],
   networkingDevices2: [
-    { q:'', a: '', tag: 0},
+    { q:'TCP header fields', a: 'Source Port, Dest Port, Seq #, Ackn #, Header length, Reserved, Control bits, Window size, Checksum, Urgent', tag: 0},
+    { q:'UDP header fields', a: 'Source port, Dest port, Length, Checksum', tag: 0},
+    { q:'Well-known ports', a: '20,21 - FTP, 22 - SSH, 23 - Telnet, 25 - SMTP, 53 - DNS, 67,68 - DHCP, 80 - HTTP, 110 - POP3, 143 - IMAP, 443 - HTTPS', tag: 0},
+    { q:'Which command lists all protocols in use?', a: 'netstat -n', tag: 0},
+    { q:'TCP three-way handshake process', a: '1) SYN<br>2) SYN and ACK<br>3)ACK', tag: 0},
+    { q:'TCP session termination', a: 'FIN - ACK, FIN - ACK', tag: 0},
+    { q:'Which two numbers are used to confirm receipt of data in TCP?', a: 'The sequence (SEQ) number and acknowledgement (ACK) number', tag: 0},
+    { q:'What is window size in TCP transmission?', a: 'The number of bytes that can be sent before expecting an acknowledgment', tag: 0},
+    { q:'What is MSS in TCP?', a: 'Maximum Segment Size, usually 1460b', tag: 0},
+    { q:'What is PDU?', a: 'Protocol Data Unit', tag: 0},
+    { q:'What is conversation multiplexing?', a: 'Sending multiple signals in a form of single complex signal', tag: 0},
     { q:'', a: '', tag: 0},
   ],
 };
