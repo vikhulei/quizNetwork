@@ -87,6 +87,11 @@ const Questions = {
     { q:'What is MSS in TCP?', a: 'Maximum Segment Size, usually 1460b', tag: 0},
     { q:'What is PDU?', a: 'Protocol Data Unit', tag: 0},
     { q:'What is conversation multiplexing?', a: 'Sending multiple signals in a form of single complex signal', tag: 0},
+    { q:'How TCP protocol addresses conjestion?', a: 'The source decreases the amount of data that it transmits before it receives an acknowledgement from the destination', tag: 0},
+    { q:'What acknowledgement number will the file server send to host A to acknowledge receipt of the first three segments of 1000b of data', a: 'The file server will now expect to receive byte number 3001 and above', tag: 0},
+    { q:'Which IOS mode allows access to all commands and features', a: 'Privilidged EXEC mode', tag: 0},
+    { q:'How to navigate between IOS modes', a: 'User EXEC mode<br>Privilidged EXEC mode - enable<br>Global Config mode - configure terminal', tag: 0},
+    { q:'What is Cisco IOS?', a: 'Cisco Internetwork Operating System', tag: 0},
     { q:'', a: '', tag: 0},
   ],
 };
