@@ -92,6 +92,8 @@ const Questions = {
     { q:'Which IOS mode allows access to all commands and features', a: 'Privilidged EXEC mode', tag: 0},
     { q:'How to navigate between IOS modes', a: 'User EXEC mode<br>Privilidged EXEC mode - enable<br>Global Config mode - configure terminal', tag: 0},
     { q:'What is Cisco IOS?', a: 'Cisco Internetwork Operating System', tag: 0},
+    { q:'List most common show commans', a: 'show arp, show flash, ', tag: 0},
+    { q:'', a: '', tag: 0},
     { q:'', a: '', tag: 0},
   ],
 };
