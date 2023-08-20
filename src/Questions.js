@@ -105,9 +105,9 @@ const Questions = {
     { q:'Verify interface status and see error messaged', a: 'show interfaces', tag: 0},
     { q:'Verify Layer 3 information of an interface', a: 'show ip interface', tag: 0},
     { q:'Verify list of known hosts on LAN', a: 'show arp', tag: 0},
-    { q:'', a: '', tag: 0},
-    { q:'', a: '', tag: 0},
-    { q:'', a: '', tag: 0},
+    { q:'Verify Layer 3 routing infoirmation', a: 'show ip route', tag: 0},
+    { q:'Verify which protocols are operational', a: 'show protocols', tag: 0},
+    { q:'Verify the memory interfaces and licences of the devise', a: 'show version', tag: 0},
   ],
 };
 
