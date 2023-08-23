@@ -109,6 +109,16 @@ const Questions = {
     { q:'Verify which protocols are operational', a: 'show protocols', tag: 0},
     { q:'Verify the memory interfaces and licences of the devise', a: 'show version', tag: 0},
   ],
+  basicConfiguration: [
+    { q:'Configure the device name', a: 'hostname name', tag: 0},
+    { q:'Secure user EXEC mode', a: '>line console 0, >password password, >login', tag: 0},
+    { q:'Secure remote Telnet / SSH access', a: '>line vty 0 15, >password password, >login', tag: 0},
+    { q:'Secure privileged EXEC mode', a: '>enable secret password', tag: 0},
+    { q:'Secure all passwords in the config file', a: '>service password-encryption', tag: 0},
+    { q:'Provide legal notification', a: '>banner motd #No unauthorized access allowed!#', tag: 0},
+    { q:'Configure the management SVI', a: '>interface vlan 1 >ip address 192.168.1.20 255.255.255.0 >no shutdown', tag: 0},
+    { q:'Save the configuration', a: '>copy running-config startup-config', tag: 0},
+  ],
 };
 
 export default Questions;
