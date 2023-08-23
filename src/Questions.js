@@ -112,12 +112,14 @@ const Questions = {
   basicConfiguration: [
     { q:'Configure the device name', a: 'hostname name', tag: 0},
     { q:'Secure user EXEC mode', a: '>line console 0, >password password, >login', tag: 0},
-    { q:'Secure remote Telnet / SSH access', a: '>line vty 0 15, >password password, >login', tag: 0},
+    { q:'For vty lines 0 through 4, configure "cisco" as the password, require users to login', a: '>line vty 0 15, >password password, >login', tag: 0},
+    { q:'Secure remote Telnet / SSH access', a: '>transport input ssh telnet', tag: 0},
     { q:'Secure privileged EXEC mode', a: '>enable secret password', tag: 0},
     { q:'Secure all passwords in the config file', a: '>service password-encryption', tag: 0},
     { q:'Provide legal notification', a: '>banner motd #No unauthorized access allowed!#', tag: 0},
     { q:'Configure the management SVI', a: '>interface vlan 1 >ip address 192.168.1.20 255.255.255.0 >no shutdown', tag: 0},
     { q:'Save the configuration', a: '>copy running-config startup-config', tag: 0},
+    { q:'What is vty', a: 'Virtual Teletype. Used to access device via network using Telnet/SSH', tag: 0},
   ],
 };
 
