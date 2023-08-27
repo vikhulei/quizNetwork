@@ -39,7 +39,7 @@ const Questions = {
     { q: 'What does netstat command list?', a: 'Protocols, local/foreign addresses and port numbers', tag: 0 },
     { q: 'What is a socket?', a: 'Identifier of all components, that belong in one communication/conversation - source and destination ip/port #', tag: 0 },
     { q: 'What is URI, URL and URN?', a: 'Unified Resource Identifier - entire line<br>URL - name and protocol<br>URN - only the name', tag: 0 },
-    { q: 'What is the difference between POP3 and IMAP4?', a: 'POP3 doesnt store messages on the server, it downloads them on clients computer', tag: 0 },
+    { q: 'What is the difference between POP3 and IMAP4?', a: 'POP3 doesnt store messages on the server, it downloads them on clients computer', tag: 0 }
   ],
   networkingDevices1: [
     { q: 'Four basic characteristics of network', a: 'Fault tolerance<br>Scalability<br>Quality of Service (QoS)<br>Security', tag: 0 },
@@ -107,7 +107,7 @@ const Questions = {
     { q:'Verify list of known hosts on LAN', a: 'show arp', tag: 0},
     { q:'Verify Layer 3 routing infoirmation', a: 'show ip route', tag: 0},
     { q:'Verify which protocols are operational', a: 'show protocols', tag: 0},
-    { q:'Verify the memory interfaces and licences of the devise', a: 'show version', tag: 0},
+    { q:'Verify the memory interfaces and licences of the devise', a: 'show version', tag: 0}
   ],
   basicConfiguration: [
     { q:'Configure the device name', a: 'hostname name', tag: 0},
@@ -124,10 +124,10 @@ const Questions = {
     { q:'What is one difference between using Telnet or SSH?', a: 'Telnet sends a username and password in plain text, whereas SSH encrypts the username and password', tag: 0},
     { q:'What is ICMP?', a: 'Internet Control Message Protocols, ICMP Echo messages is the basis of the ping utility', tag: 0},
     { q:'Destination Unreachable codes for ICMPv4', a: '0 - Net unreachable<br>1 - Host unreachable<br>2 - Protocol unreachable<br>3 - Port unreachable', tag: 0},
-    { q:'Destination Unreachable codes for ICMPv6', a: '0 - No route to destination<br>1 - Communication with the destin is prohibited<br>2 – Beyond scope of the source <br>3 - Address unreachable<br>4 - Port unreachable', tag: 0},
+    { q:'Destination Unreachable codes for ICMPv6', a: '0 No route to destination<br>1 Communication with the destin is prohibited<br>2 Beyond scope of the source <br>3 Addr unreachable<br>4 Port unreachable', tag: 0},
     { q:'What are ICMPv6 Messages between rounter and device?', a: 'Router Solicitation (RS) message - request from device <br>Router Advertisement (RA) message - response or advertisement (every 200 sec) from router', tag: 0},
-    { q:'What are ICMPv6 Messages between devices?', a: 'Neighbor Solicitation (NS) message - request from device<br>Neighbor Advertisement (NA) message - response from other device', tag: 0},
-  ],
+    { q:'What are ICMPv6 Messages between devices?', a: 'Neighbor Solicitation (NS) message - request from device<br>Neighbor Advertisement (NA) message - response from other device', tag: 0}
+  ]
 };
 
 export default Questions;
