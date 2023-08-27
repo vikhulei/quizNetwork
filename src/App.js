@@ -19,7 +19,7 @@ const App = () => {
 
   const click_clear = () => {
     newQuestions.map((val) => (val.tag = 0));
-    setQuestion({ q: "Start", a: "Press Next", tag: 0 });
+    setQuestion({ q: "Start", a: "Press <br> Next", tag: 0 });
     setFlip(false);
     setBackCenter(true)
   };

@@ -35,6 +35,11 @@ const Questions = {
     { q: 'Wht does UDP stand for?', a: 'User Datagram Protocol', tag: 0 },
     { q: 'Three types of ports', a: '1) Well-known ports: 1-1023<br>2) Registered ports: 1024-49151 <br>3) Private ports: 49152-65535', tag: 0 },
     { q: 'Well-known ports', a: 'FTP - 20,21,  Secure Shell(SSH) - 22,  Simple Mail Transfer Protocol (SMTP) - 25,  DNS - 53, DHCP - 67,68,  HTTP/HTTPS - 80/443,  Post Office Protocol v3 (POP3) - 110', tag: 0 },
+    { q: 'What are FTP port numbers?<br>What is POP3 port number?<br>What are DHCP port numbers?', a: 'FTP-20,21<br>POP3-110<br>DHCP-67,68', tag: 0 },
+    { q: '', a: '', tag: 0 },
+    { q: '', a: '', tag: 0 },
+    { q: '', a: '', tag: 0 },
+
     { q: 'Which command lists protocols, local/foreign addresses and port numbers?', a: 'netstat -n', tag: 0 },
     { q: 'What does netstat command list?', a: 'Protocols, local/foreign addresses and port numbers', tag: 0 },
     { q: 'What is a socket?', a: 'Identifier of all components, that belong in one communication/conversation - source and destination ip/port #', tag: 0 },
@@ -127,7 +132,7 @@ const Questions = {
     { q:'Destination Unreachable codes for ICMPv6', a: '0 No route to destination<br>1 Communication with the destin is prohibited<br>2 Beyond scope of the source <br>3 Addr unreachable<br>4 Port unreachable', tag: 0},
     { q:'What are ICMPv6 Messages between rounter and device?', a: 'Router Solicitation (RS) message - request from device <br>Router Advertisement (RA) message - response or advertisement (every 200 sec) from router', tag: 0},
     { q:'What are ICMPv6 Messages between devices?', a: 'Neighbor Solicitation (NS) message - request from device<br>Neighbor Advertisement (NA) message - response from other device', tag: 0}
-  ]
+  ],
 };
 
 export default Questions;
