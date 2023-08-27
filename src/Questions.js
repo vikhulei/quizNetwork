@@ -9,7 +9,7 @@ const Questions = {
     { q: 'What is SSID?', a: 'Service Set Identifier<br>It Uniquely names a WIFI network', tag: 0 },
     { q: 'What is GSM?', a: 'Global System for Mobile Communications', tag: 0 },
     { q: 'Whats is NFC?', a: 'Near Field Communications', tag: 0 },
-    { q: 'Distances covered by 1) Wifi<br>2) Bluetooth<br>3) WWAN', a: '1) Wifi - 0.18 miles<br>2) Bluetooth - 0.05mi<br>3) WWAN (Wireless wide-area network) - few miles', tag: 0 },
+    { q: 'Distances covered by:<br>1) Wifi<br>2) Bluetooth<br>3) WWAN', a: '1) Wifi - 0.18 miles<br>2) Bluetooth - 0.05mi<br>3) WWAN (Wireless wide-area network) - few miles', tag: 0 },
     { q: 'Which 2 technologies are used in tethering?', a: '1) USB<br>2) Bluetooth', tag: 0 },
     { q: 'Describe combined homenetworking device', a: '1. Build-in modem<br>2. Router<br>3. Wireless transmitter<br>4. Lan switch', tag: 0 },
     { q: 'Three types of wired connections, explain each', a: '1) Category 5e - 4 pairs of wires<br>2) Coaxial - inner wire surrounded by conducting shield<br>3) Fiber-Optic - glass or plastic wire diameter of hair', tag: 0 },
