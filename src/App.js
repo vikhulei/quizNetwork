@@ -56,7 +56,7 @@ const App = () => {
           <option value="basics">Networking Basics</option>
           <option value="networkingDevices1">Networking Devices1</option>
           <option value="networkingDevices2">Networking Devices2</option>
-          <option value="basicConfiguration">Networking Devices2</option>
+          <option value="basicConfiguration">Basic Configuration</option>
         </select>
         <div className="repeat">
           <label>R</label>
