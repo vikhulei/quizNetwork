@@ -110,7 +110,8 @@ const Questions = {
     { q:'Verify list of known hosts on LAN', a: 'show arp', tag: 0},
     { q:'Verify Layer 3 routing infoirmation', a: 'show ip route', tag: 0},
     { q:'Verify which protocols are operational', a: 'show protocols', tag: 0},
-    { q:'Verify the memory interfaces and licences of the devise', a: 'show version', tag: 0}
+    { q:'Verify the memory interfaces and licences of the devise', a: 'show version', tag: 0},
+    { q:'What is indicated by the 100 in the 100BASE-T standard?', a: 'Transmission speed of 100 Mbit/s', tag: 0}
   ],
   basicConfiguration: [
     { q:'Configure the device name', a: 'hostname name', tag: 0},
