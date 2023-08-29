@@ -137,6 +137,11 @@ const Questions = {
     {q: 'What is latency?', a: 'Latency refers to the amount of time, including delays, for data to travel from one given point to another', tag: 0},
     {q: 'What is throughput?', a: 'Throughput is the measure of the transfer of bits across the media over a given period of time', tag: 0},
     {q: 'What is goodput?', a: 'Goodput is the measure of usable data transferred over a given period of time', tag: 0},
+    {q: 'What are the two sources of interference ?', a: 'Electromagnetic interference (EMI) or radio frequency interference (RFI)<br>Crosstalk', tag: 0},
+    {q: 'Wjhat are the ways to limit the negative effect of crosstalk in UTP?', a: 'Cancellation<br>Varying the number of twists per wire pair', tag: 0},
+    {q: 'Amount of data supported by different cable categories:<br>Category 5 and 5e<br>Category 6 and 7<br>Category 8', a: 'Category 5 and 5e - 100Mb and 1000Mb<br>Category 6 and 7 - 10Gb<br>Category 8 - 40Gb', tag: 0},
+    {q: 'UTP wiring conventions', a: 'T568A: g/w-g-o/w-b-b/w-o-br/w-br<br>T568B: o/w-o-g/w-b-b/w-g-br/w-br', tag: 0},
+    {q: '', a: '', tag: 0},
 
   ]
 };
