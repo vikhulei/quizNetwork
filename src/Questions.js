@@ -68,7 +68,7 @@ const Questions = {
     { q: 'Network layer four basic operations ', a: '1) Addressing end device<br>2) Encapsulation<br>3) Routing<br>4) De-encapsulation', tag: 0 },
     { q: 'Name of the packets on different Layers', a: 'Layer 4 - Segment<br>Layer 3 - Packet<br>Layer 2 - Frame', tag: 0 },
     { q: 'What is one major characteristic of the media that the network layer considers?', a: 'Maximum transmission unit (MTU)<br>The data link layer passes the MTU value up to the network layer', tag: 0 },
-    { q: '1) Unicast IPv6 address<br>Multicast IPv6 address', a: '1) 2001:6f8<br>2) ff02', tag: 0 },
+    { q: '1) Unicast IPv6 address<br>2) Multicast IPv6 address', a: '1) 2001:6f8<br>2) ff02', tag: 0 },
     { q: 'Link-local IPv6 address', a: 'fe80, ff:fe in the middle', tag: 0 },
     { q: 'How many octets and header fields in IPv6?', a: '40 octets and 8 hea', tag: 0 },
     { q: 'When would a switch record multiple entries for a single switch port in its MAC address table', a: 'When another switch is connected to the switch port', tag: 0 },
@@ -76,7 +76,7 @@ const Questions = {
     { q: 'What are IPv4 header fields?', a: 'Version (0100), DS(priority), TTL, Protocol (transport), Header Checksum, Source IPv4, Dest IPv4', tag: 0 },
     { q:'Some of the DNS records', a: 'A - IPv4 record, NS - authoritative name server, AAAA - IPv6 record, MX - mail exchange records', tag: 0},
     { q:'DNS hierarchy', a: 'Root server -> top-level domain (TLD) -> second-level domain (authoritative)', tag: 0},
-    { q:'How to ping for IPv4 address?', a: 'ping -4', tag: 0}
+    { q:'What action does the ARP process take when a host needs to build a frame, but the ARP cache does not contain an address mapping?', a: 'The ARP process sends out an ARP request to the Ethernet broadcast address to discover the MAC address of the destination device.', tag: 0}
   ],
   networkingDevices2: [
     { q:'TCP header fields', a: 'Source Port, Dest Port, Seq #, Ackn #, Header length, Reserved, Control bits, Window size, Checksum, Urgent', tag: 0},
@@ -132,6 +132,13 @@ const Questions = {
     { q:'What are ICMPv6 Messages between rounter and device?', a: 'Router Solicitation (RS) message - request from device <br>Router Advertisement (RA) message - response or advertisement (every 200 sec) from router', tag: 0},
     { q:'What are ICMPv6 Messages between devices?', a: 'Neighbor Solicitation (NS) message - request from device<br>Neighbor Advertisement (NA) message - response from other device', tag: 0}
   ],
+  basicTroubleshooting: [
+    {q: 'How is bandwidth measured?', a: 'Bandwidth measures the amount of data that can flow from one place to another in a given amount of time', tag: 0},
+    {q: 'What is latency?', a: 'Latency refers to the amount of time, including delays, for data to travel from one given point to another', tag: 0},
+    {q: 'What is throughput?', a: 'Throughput is the measure of the transfer of bits across the media over a given period of time', tag: 0},
+    {q: 'What is goodput?', a: 'Goodput is the measure of usable data transferred over a given period of time', tag: 0},
+
+  ]
 };
 
 export default Questions;
