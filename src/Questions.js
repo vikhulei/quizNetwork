@@ -158,7 +158,10 @@ const Questions = {
     {q: 'Address range for Local Link Address (LLA)', a: 'fe80 - febf', tag: 0},
     {q: 'Whats is IPv6 GUA Structure?', a: 'Global Routing Prefix<br>Subnet ID<br>Interface ID', tag: 0},
     {q: 'Three methods for RA messages to get IPv6 address', a: 'SLAAC<br>SLAAC with a stateless DHCPv6 server<br>Stateful DHCPv6 (no SLAAC)', tag: 0},
-    {q: '', a: '', tag: 0},
+    {q: 'Describe SLAAC method', a: 'The PC uses SLAAC to obtain a prefix from the RA message and creates its own Interface ID', tag: 0},
+    {q: 'Describe SLAAC and Stateless DHCPv6 method', a: 'Here is your prefix, prefix-length, and default gateway information. But you will need to get DNS information from a DHCPv6 server', tag: 0},
+    {q: 'Describe Stateful DHCPv6 method', a: 'I am your default gateway, but you need to ask a stateful DHCPv6 server for your IPv6 address and other addressing information', tag: 0},
+    {q: 'Three stages of EUI-64 Process', a: '24-bit OUI from the client MAC address, but the 7th bit is reversed<br>16-bit value fffe<br>24-bit device identifier from the client MAC address', tag: 0},
     {q: '', a: '', tag: 0},
 
   ]
