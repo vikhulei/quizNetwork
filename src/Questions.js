@@ -154,6 +154,11 @@ const Questions = {
     {q: 'Modern and legacy LAN topologies', a: 'Modern - star (extended star)<br>Legacy - bus and ring', tag: 0},
     {q: 'What is IPv6 network and host address portions', a: 'The prefix or network portion of the address is 64 bits in length, leaving another 64 bits for the interface ID (host portion) of the address', tag: 0},
     {q: 'Two most used and four other IPv6 address types', a: 'Global Unicast (public)<br>Link-Local<br>Loopback<br>Unspecified<br>Unique Local', tag: 0},
+    {q: 'Address range for Global Unicast Address (GUA)', a: '2000 - 3fff', tag: 0},
+    {q: 'Address range for Local Link Address (LLA)', a: 'fe80 - febf', tag: 0},
+    {q: 'Whats is IPv6 GUA Structure?', a: 'Global Routing Prefix<br>Subnet ID<br>Interface ID', tag: 0},
+    {q: 'Three methods for RA messages to get IPv6 address', a: 'SLAAC<br>SLAAC with a stateless DHCPv6 server<br>Stateful DHCPv6 (no SLAAC)', tag: 0},
+    {q: '', a: '', tag: 0},
     {q: '', a: '', tag: 0},
 
   ]
