@@ -161,7 +161,7 @@ const Questions = {
     {q: 'Describe Stateful DHCPv6 method', a: 'I am your default gateway, but you need to ask a stateful DHCPv6 server for your IPv6 address and other addressing information', tag: 0},
     {q: 'Three stages of EUI-64 Process', a: '24-bit OUI from the client MAC address, but the 7th bit is reversed<br>16-bit value fffe<br>24-bit device identifier from the client MAC address', tag: 0},
     {q: 'Whish command is to enable the router to forward IPv6 packets?', a: 'ipv6 unicast-routing', tag: 0},
-    {q: '', a: '', tag: 0},
+    {q: 'What are IPv6 ULAs?', a: 'Unique Local Address. Can never be routed', tag: 0},
     {q: '', a: '', tag: 0},
   ],
   ipv6Addresses: [
@@ -171,7 +171,21 @@ const Questions = {
     {q: 'Unique local', a: 'fc00::', tag: 0},
     {q: 'Address range for Global Unicast Address (GUA)', a: '2000 - 3fff', tag: 0},
     {q: 'Address range for Link-Local Address (LLA)', a: 'fe80 - febf', tag: 0},
-  ]
+  ],
+  basicTroubleshooting2: [
+    {q: 'Frame Forwarding Methods on Cisco Switches', a: 'Store-and-forward switching<br>Cut-through switching', tag: 0},
+    {q: 'Two variants of cut-through switching', a: 'Fast-forward switching - reads 6 bytes and forwards<br>Fragment-free switching - stores first 64 bytes', tag: 0},
+    {q: 'Where do the most of network errors and collisions occur?', a: 'In the first 64 bytes of the frame', tag: 0},
+    {q: 'Two memory buffering methods', a: 'Port-based memory - frames stored for each incoming/outgoign ports<br>Shared memory - frames stored in common memory, dynamically linked to ports', tag: 0},
+    {q: 'Which are two types of duplex settings?', a: 'Full-duplex - send and receive at the same time<br>Half-duplex - only 1 end can send<br>Autonegotiation is used', tag: 0},
+    {q: 'Which cables should be used to connect different devices?', a: 'S-S - crossover<br>S-R - straight-through<br>PC-S - straight-through<br>PC-R - crossover', tag: 0},
+    {q: 'Three major steps to the router boot sequence', a: 'Perform Power-On-Self-Test (POST) and load the bootstrap program.<br>Load the IOS from Flash or TFTP server.<br>Load the startup configuration file from NVRAM', tag: 0},
+    {q: 'Steps to power up a Cisco router', a: 'Securely mount the device to the rack.<br>Ground the device.<br>Connect the power cable.<br>Connect a console cable.<br>Turn on the router', tag: 0},
+    {q: '', a: '', tag: 0},
+    {q: '', a: '', tag: 0},
+    {q: '', a: '', tag: 0},
+  ],
+
 };
 
 export default Questions;

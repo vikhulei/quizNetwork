@@ -59,6 +59,7 @@ const App = () => {
           <option value="basicConfiguration">Basic Configuration</option>
           <option value="basicTroubleshooting">Basic Troubleshooting</option>
           <option value="ipv6Addresses">ipv6 Adresses</option>
+          <option value="basicTroubleshooting2">Basic Troubleshooting 2</option>
         </select>
         <div className="repeat">
           <label>R</label>
