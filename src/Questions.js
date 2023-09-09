@@ -149,6 +149,8 @@ const Questions = {
     {q: 'What ar four types of fiber patch cords?', a: 'SC-SC Multimode<br>LC-LC Single-Mode<br>ST-LC Multimode<br>SC-ST Single-Mode', tag: 0},
     {q: 'What is line encoding?', a: 'Line encoding is the method or pattern used to represent digital information.', tag: 0},
     {q: 'Two types of communication', a: 'Half Duplex<br>Full Duplex', tag: 0},
+    {q: 'Characteristics of CSMA/CD', a: 'Used in Legacy LAN<br>NIC is checking if media is free and sends the frame', tag: 0},
+    {q: 'Characteristics of CSMA/CA', a: 'Used in WIFI<br>Device sends notification, all other devices wait until transmission is completed', tag: 0},
     {q: 'Two types of topology', a: 'Physical and logical', tag: 0},
     {q: 'Three types of WAN topology', a: 'Point-to-point, hub and spoke, and mesh', tag: 0},
     {q: 'Modern and legacy LAN topologies', a: 'Modern - star (extended star)<br>Legacy - bus and ring', tag: 0},
@@ -181,9 +183,9 @@ const Questions = {
     {q: 'Which cables should be used to connect different devices?', a: 'S-S - crossover<br>S-R - straight-through<br>PC-S - straight-through<br>PC-R - crossover', tag: 0},
     {q: 'Three major steps to the router boot sequence', a: 'Perform Power-On-Self-Test (POST) and load the bootstrap program.<br>Load the IOS from Flash or TFTP server.<br>Load the startup configuration file from NVRAM', tag: 0},
     {q: 'Steps to power up a Cisco router', a: 'Securely mount the device to the rack.<br>Ground the device.<br>Connect the power cable.<br>Connect a console cable.<br>Turn on the router', tag: 0},
-    {q: '', a: '', tag: 0},
-    {q: '', a: '', tag: 0},
-    {q: '', a: '', tag: 0},
+    {q: '3 steps of router bootup process - apps and memory', a: 'Post and bootstrap from ROM<br>IOS from Flash<br>Config file from NVRAM', tag: 0},
+    {q: 'Which memory is used to load all apps to?', a: 'RAM', tag: 0},
+    {q: 'What is Auto MDI-X?', a: 'It automatically detects the required cable connection type and configures the connection appropriately', tag: 0},
   ],
 
 };
