@@ -190,6 +190,7 @@ const Questions = {
     {q: 'What is the most recent WLAN standard?', a: 'Most recent WLAN standard is 802.11ax', tag: 0},
     {q: 'Which router IOS command displays the equivalent system information as many different show commands?', a: 'show tech-support', tag: 0},
     {q: '', a: '', tag: 0},
+    {q: '', a: '', tag: 0},
   ],
 
 };
