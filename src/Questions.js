@@ -186,6 +186,10 @@ const Questions = {
     {q: '3 steps of router bootup process - apps and memory', a: 'Post and bootstrap from ROM<br>IOS from Flash<br>Config file from NVRAM', tag: 0},
     {q: 'Which memory is used to load all apps to?', a: 'RAM', tag: 0},
     {q: 'What is Auto MDI-X?', a: 'It automatically detects the required cable connection type and configures the connection appropriately', tag: 0},
+    {q: 'Seven-step troubleshooting process', a: 'Define - Gather - Amalyze - Eliminate - Propose - Test - Solve and Document', tag: 0},
+    {q: 'What is the most recent WLAN standard?', a: 'Most recent WLAN standard is 802.11ax', tag: 0},
+    {q: 'Which router IOS command displays the equivalent system information as many different show commands?', a: 'show tech-support', tag: 0},
+    {q: '', a: '', tag: 0},
   ],
 
 };
