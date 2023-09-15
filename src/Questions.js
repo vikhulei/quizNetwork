@@ -189,10 +189,10 @@ const Questions = {
     {q: 'Seven-step troubleshooting process', a: 'Define - Gather - Amalyze - Eliminate - Propose - Test - Solve and Document', tag: 0},
     {q: 'What is the most recent WLAN standard?', a: 'Most recent WLAN standard is 802.11ax', tag: 0},
     {q: 'Which router IOS command displays the equivalent system information as many different show commands?', a: 'show tech-support', tag: 0},
-    {q: '', a: '', tag: 0},
-    {q: '', a: '', tag: 0},
   ],
-
+networkSecurity: [
+  {q: 'Two types of VPNs', a: 'Site-To-Site - preconfigured<br>Remote Access - between client and VPN terminating device', tag: 0},
+],
 };
 
 export default Questions;
