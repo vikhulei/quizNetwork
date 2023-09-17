@@ -1,4 +1,19 @@
 const Questions = {
+  exam: [
+    { q: 'OSI model', a: '7) Application<br>6) Presentation<br>5) Session<br>4) Transport<br>3) Network <br>2) Data Link <br>1) Physical', tag: 0 },
+    { q: 'TCP/IP model', a: '4) Application<br>3)Transport<br>2) Internet<br> 1) Network Access', tag: 0 },
+    { q: 'Private addresses', a: '1) 10.0.0.0/8<br>2) 172.16.0.0/12<br>3) 192.168.0.0/16', tag: 0 },
+    { q: 'Special addresses', a: '1) Loopback address - 127.0.0.1<br>2) Link-Local addresses - 169.254.0.1 to 169.254.255.254', tag: 0 },
+    { q: 'What is the range for multicast?', a: '224.0.0.0 to 239.255.25.255', tag: 0 },
+    { q: 'Three migration techniques from IPv4 to IPv6', a: '1) Dual Stack<br>2) Tunneling<br>3) Translation', tag: 0 },
+    { q: 'Three types of ports', a: '1) Well-known ports: 1-1023<br>2) Registered ports: 1024-49151 <br>3) Private ports: 49152-65535', tag: 0 },
+    { q: 'What are FTP port numbers?<br>What is POP3 port number?<br>What are DHCP port numbers?', a: 'FTP - 20, 21<br>POP3 - 110<br>DHCP - 67, 68', tag: 0 },
+    { q: 'What are 20 & 21 port numbers?<br>What is 110 port number?<br>What are 67 & 68 port numbers?', a: '20, 21 - FTP, 21<br>110 - POP3<br>67, 68 - DHCP', tag: 0 },
+    { q: 'What is SMTP port number?<br>What is DNS port number?<br>What is SSH port number?', a: 'SMTP - 25<br>DNS - 53<br>SSH - 22', tag: 0 },
+    { q: 'What is 25 port number?<br>What is 53 port number?<br>What is 22 port number?', a: '25 - SMTP<br>53 - DNS<br>22 - SSH', tag: 0 },
+    
+    {q: '', a: '', tag: 0}
+  ],
   basics: [
     { q: 'What are common methods of data transmission?', a: '1. Electrical signals<br>2. Optical signals<br>3. Wireless signals', tag: 0 },
     { q: 'Name network types', a: '1. Small home<br>2. Small office/home office<br>3. Medium to large<br>4. Internet', tag: 0 },
@@ -15,15 +30,14 @@ const Questions = {
     { q: 'Three types of wired connections, explain each', a: '1) Category 5e - 4 pairs of wires<br>2) Coaxial - inner wire surrounded by conducting shield<br>3) Fiber-Optic - glass or plastic wire diameter of hair', tag: 0 },
     { q: 'Frequencies of wifi, bluetooth and cordless phone', a: '1) wifi - 2.4 and 5GHz<br>2) blutooth - 2.4GHz<br>3) phone - 900MHz', tag: 0 },
     { q: 'What wireless router configuration would stop outsiders from using your home network', a: 'Encription', tag: 0 },
-    { q: 'OSI model', a: '7) Application<br>6) Presentation<br>5) Session<br>4) Transport<br>3) Network <br>2) Data Link <br>1) Physical', tag: 0 },
-    { q: 'TCP/IP model', a: '4) Application<br>3)Transport<br>2) Internet<br> 1) Network Access', tag: 0 },
+
+
     { q: 'Three types of cables - name and explain', a: '1) Twisted pair - 4 pairs of copper wires<br>2) Coaxial cable - single copper wire in insulation and metal shielding<br> 3)Fiber-optic cable - glass or plastic wire', tag: 0 },
-    { q: 'Private addresses', a: '1) 10.0.0.0/8<br>2) 172.16.0.0/12<br>3) 192.168.0.0/16', tag: 0 },
-    { q: 'Special addresses', a: '1) Loopback address - 127.0.0.1<br>2) Link-Local addresses - 169.254.0.1 to 169.254.255.254', tag: 0 },
+
     { q: 'Who manages assignment of ip addresses?', a: 'IANA - Internet Assigned Numbers Authority', tag: 0 },
     { q: 'Which org is responsible for allocating IP addresses to ISPs?', a: 'RIR - Regional Internet Registries', tag: 0 },
-    { q: 'What is the range for multicast?', a: '224.0.0.0 to 239.255.25.255', tag: 0 },
-    { q: 'Three migration techniques from IPv4 to IPv6', a: '1) Dual Stack<br>2) Tunneling<br>3) Translation', tag: 0 },
+
+
     { q: 'Composition of IPv6', a: '8 hextets of hexidecimal digits (0 to f)', tag: 0 },
     { q: 'Four steps in assigning ip address using DHCP', a: '1) Discover from client - multicast with 255x4 and FF-FF-FF-FF-FF-FF<br>2) Offer from server<br>3) Request from client<br>4) Acknowledgment from server', tag: 0 },
     { q: 'What is ARP and ND?', a: 'Address Resolution Protocol<br>Netowrk Discovery', tag: 0 },
