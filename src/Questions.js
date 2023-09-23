@@ -11,6 +11,17 @@ const Questions = {
     { q: 'What are 20 & 21 port numbers?<br>What is 110 port number?<br>What are 67 & 68 port numbers?', a: '20, 21 - FTP, 21<br>110 - POP3<br>67, 68 - DHCP', tag: 0 },
     { q: 'What is SMTP port number?<br>What is DNS port number?<br>What is SSH port number?', a: 'SMTP - 25<br>DNS - 53<br>SSH - 22', tag: 0 },
     { q: 'What is 25 port number?<br>What is 53 port number?<br>What is 22 port number?', a: '25 - SMTP<br>53 - DNS<br>22 - SSH', tag: 0 },
+    {q: 'UTP wiring conventions and color-coding', a: 'T568A: g/w-g-o/w-b-b/w-o-br/w-br<br>T568B: o/w-o-g/w-b-b/w-g-br/w-br', tag: 0},
+    {q: 'Characteristics of CSMA/CD', a: 'Used in Legacy LAN<br>NIC is checking if media is free and sends the frame', tag: 0},
+    {q: 'Characteristics of CSMA/CA', a: 'Used in WIFI<br>Device sends notification, all other devices wait until transmission is completed', tag: 0},
+    { q:'Destination Unreachable codes for ICMPv4', a: '0 - Net unreachable<br>1 - Host unreachable<br>2 - Protocol unreachable<br>3 - Port unreachable', tag: 0},
+    { q:'Destination Unreachable codes for ICMPv6', a: '0 No route to destination<br>1 Communication with the destin is prohibited<br>2 Beyond scope of the source <br>3 Addr unreachable<br>4 Port unreachable', tag: 0},
+    {q: 'Whats is IPv6 GUA Structure?', a: 'Global Routing Prefix<br>Subnet ID<br>Interface ID', tag: 0},
+    {q: 'Three methods for RA messages to get IPv6 address and describe them', a: 'SLAAC - PC gets default gateway and creates IPV6 address<br>SLAAC with a stateless DHCPv6 server - <br>Stateful DHCPv6 (no SLAAC)', tag: 0},
+    {q: 'Three stages of EUI-64 Process', a: '24-bit OUI from the client MAC address, but the 7th bit is reversed<br>16-bit value fffe<br>24-bit device identifier from the client MAC address', tag: 0},
+    {q: 'Which cables should be used to connect different devices?', a: 'S-S - crossover<br>S-R - straight-through<br>PC-S - straight-through<br>PC-R - crossover', tag: 0},
+    {q: 'Three major steps to the router boot sequence', a: 'Perform Power-On-Self-Test (POST) and load the bootstrap program.<br>Load the IOS from Flash or TFTP server.<br>Load the startup configuration file from NVRAM', tag: 0},
+    {q: 'Seven-step troubleshooting process', a: 'Define - Gather - Amalyze - Eliminate - Propose - Test - Solve and Document', tag: 0},
     
     {q: '', a: '', tag: 0}
   ],
@@ -141,8 +152,7 @@ const Questions = {
     { q:'What is SVI?', a: 'Switch Virtual Interface. Created for each VLAN', tag: 0},
     { q:'What is one difference between using Telnet or SSH?', a: 'Telnet sends a username and password in plain text, whereas SSH encrypts the username and password', tag: 0},
     { q:'What is ICMP?', a: 'Internet Control Message Protocols, ICMP Echo messages is the basis of the ping utility', tag: 0},
-    { q:'Destination Unreachable codes for ICMPv4', a: '0 - Net unreachable<br>1 - Host unreachable<br>2 - Protocol unreachable<br>3 - Port unreachable', tag: 0},
-    { q:'Destination Unreachable codes for ICMPv6', a: '0 No route to destination<br>1 Communication with the destin is prohibited<br>2 Beyond scope of the source <br>3 Addr unreachable<br>4 Port unreachable', tag: 0},
+
     { q:'What are ICMPv6 Messages between rounter and device?', a: 'Router Solicitation (RS) message - request from device <br>Router Advertisement (RA) message - response or advertisement (every 200 sec) from router', tag: 0},
     { q:'What are ICMPv6 Messages between devices?', a: 'Neighbor Solicitation (NS) message - request from device<br>Neighbor Advertisement (NA) message - response from other device', tag: 0}
   ],
@@ -154,7 +164,7 @@ const Questions = {
     {q: 'What are the two sources of interference ?', a: 'Electromagnetic interference (EMI) or radio frequency interference (RFI)<br>Crosstalk', tag: 0},
     {q: 'Wjhat are the ways to limit the negative effect of crosstalk in UTP?', a: 'Cancellation<br>Varying the number of twists per wire pair', tag: 0},
     {q: 'Amount of data supported by different cable categories:<br>Category 5 and 5e<br>Category 6 and 7<br>Category 8', a: 'Category 5 and 5e - 100Mb and 1000Mb<br>Category 6 and 7 - 10Gb<br>Category 8 - 40Gb', tag: 0},
-    {q: 'UTP wiring conventions', a: 'T568A: g/w-g-o/w-b-b/w-o-br/w-br<br>T568B: o/w-o-g/w-b-b/w-g-br/w-br', tag: 0},
+
     {q: 'Which are two types of fiber-optic cables ?', a: 'Single-mode fiber (SMF)<br>Multimode fiber (MMF)', tag: 0},
     {q: 'Describe single-mode fiber', a: 'SMF consists of a very small core and uses expensive laser technology to send a single ray of light', tag: 0},
     {q: 'Describe multi-mode fiber', a: 'MMF consists of a larger core and uses LED emitters to send light pulses at different angles.', tag: 0},
@@ -163,8 +173,7 @@ const Questions = {
     {q: 'What ar four types of fiber patch cords?', a: 'SC-SC Multimode<br>LC-LC Single-Mode<br>ST-LC Multimode<br>SC-ST Single-Mode', tag: 0},
     {q: 'What is line encoding?', a: 'Line encoding is the method or pattern used to represent digital information.', tag: 0},
     {q: 'Two types of communication', a: 'Half Duplex<br>Full Duplex', tag: 0},
-    {q: 'Characteristics of CSMA/CD', a: 'Used in Legacy LAN<br>NIC is checking if media is free and sends the frame', tag: 0},
-    {q: 'Characteristics of CSMA/CA', a: 'Used in WIFI<br>Device sends notification, all other devices wait until transmission is completed', tag: 0},
+
     {q: 'Two types of topology', a: 'Physical and logical', tag: 0},
     {q: 'Three types of WAN topology', a: 'Point-to-point, hub and spoke, and mesh', tag: 0},
     {q: 'Modern and legacy LAN topologies', a: 'Modern - star (extended star)<br>Legacy - bus and ring', tag: 0},
