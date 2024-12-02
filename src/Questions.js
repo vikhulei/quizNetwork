@@ -1,4 +1,13 @@
 const Questions = {
+  compTIA: [
+    { q: 'What is a port?', a: 'Number that represents an application or a process', tag: 0 },
+    { q: 'What is a scocket?', a: '1) Port that is in use<br>2) Represents protocol, IP address and port', tag: 0 },
+    { q: '', a: '', tag: 0 },
+    { q: '', a: '', tag: 0 },
+    { q: '', a: '', tag: 0 },
+    { q: '', a: '', tag: 0 },
+    
+  ],
   network1: [
     { q: 'OSI model', a: '7) Application<br>6) Presentation<br>5) Session<br>4) Transport<br>3) Network <br>2) Data Link <br>1) Physical', tag: 0 },
     { q: 'TCP/IP model', a: '4) Application<br>3)Transport<br>2) Internet<br> 1) Network Access', tag: 0 },
