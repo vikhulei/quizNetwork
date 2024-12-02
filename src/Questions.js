@@ -2,7 +2,12 @@ const Questions = {
   compTIA: [
     { q: 'What is a port?', a: 'Number that represents an application or a process', tag: 0 },
     { q: 'What is a scocket?', a: '1) Port that is in use<br>2) Represents protocol, IP address and port', tag: 0 },
-    { q: 'OCI 7 layers', a: '7) Application<br>6) Presentation<br>5) Session<br>4) ', tag: 0 },
+    { q: 'OCI 7 layers', a: '7) Application<br>6) Presentation<br>5) Session<br>4) Transport<br>3) Network<br>2) Data Link<br>1) Physical', tag: 0 },
+    { q: 'How is data called on physical, datalink, network and transport layers?', a: '1) physical - bit<br>2) datalink - frame<br>3) network - packet<br>4) transport - segment(IP),datagram(UDP)', tag: 0 },
+    { q: 'Which protocols are on app layer?', a: 'SMTP, POP3, IMAP4, HTTPS, RDP, DNS, DHCP, SMB, NFS, FTP, Telnet, SSH, SIP (Voip), LDAP', tag: 0 },
+    { q: 'Which protocols are on presentation layer?', a: 'Media format, encryption', tag: 0 },
+    { q: 'What is session layer using?', a: 'Ports', tag: 0 },
+    { q: 'How is transport layer working?', a: 'Starting, manging and ending ', tag: 0 },
     { q: '', a: '', tag: 0 },
     { q: '', a: '', tag: 0 },
     { q: '', a: '', tag: 0 },
