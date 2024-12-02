@@ -2,7 +2,7 @@ const Questions = {
   compTIA: [
     { q: 'What is a port?', a: 'Number that represents an application or a process', tag: 0 },
     { q: 'What is a scocket?', a: '1) Port that is in use<br>2) Represents protocol, IP address and port', tag: 0 },
-    { q: '', a: '', tag: 0 },
+    { q: 'OCI 7 layers', a: '7) Application<br>6) Presentation<br>5) Session<br>4) ', tag: 0 },
     { q: '', a: '', tag: 0 },
     { q: '', a: '', tag: 0 },
     { q: '', a: '', tag: 0 },
